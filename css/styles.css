@@ -385,16 +385,16 @@ footer button.show{
 
     /* Footer social network */
     .copyright-wrapper {
-        background-color: #150335;
-        margin-top: auto;
-        padding-bottom: 15px;
-        font-family: 'Roboto',sans-serif;
-        border-top: 2px solid wheat;
-        color: bisque;
+    background-color: #291415;
+    margin-top: auto;
+    padding-bottom: 15px;
+    font-family: 'Alegreya SC', sans-serif;
+    border-top: 2px solid wheat;
+    color: bisque;
         flex-direction: column;
-        height: auto;
+    height: auto;
     
-        
+
     }
     
     .social-networks {
@@ -408,9 +408,9 @@ footer button.show{
         gap: 40px;
         
         
-
-    }
     
+    }
+
     .social-networks>li {
         display: inline;
         margin-top: 20px;
