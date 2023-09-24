@@ -1,4 +1,4 @@
-/* importing google fonts */
+/*importing google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
@@ -9,21 +9,21 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background: url("/img/hands-600497_1280.jpeg")no-repeat center center/cover;
+    background: url("/assets/img/hands-600497_1280.jpeg");
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 ::selection {
     color: #fff;
-    background: #007bff;
+    background: #8eb9e7;
 }
 
 .start_btn,
 .info_box,
 .quiz_box,
 .result_box {
+    background: #f5c6cb;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,10 +54,9 @@ body {
 }
 
 .info_box {
-    width: 540px;
     background: rgb(196, 168, 160);
+    width: 540px;
     border-radius: 5px;
-    transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -86,7 +85,7 @@ body {
 
 .info_box .info-list .info span {
     font-weight: 600;
-    color: #e6e9ed;
+    color: #fdfbfe;
 }
 
 .info_box .buttons {
@@ -108,12 +107,12 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #a4c6eb;
+    border: 1px solid #d9e2eb;
     transition: all 0.3s ease;
 }
 
 .quiz_box {
-    width: 550px;
+    width: 700px;
     background: #a18282;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -136,12 +135,12 @@ body {
 }
 
 .quiz_box header .title {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 600;
 }
 
 .quiz_box header .timer {
-    color: #454f45;
+    color: #454f59;
     background: #cce5ff;
     border: 1px solid #b8daff;
     height: 45px;
@@ -155,7 +154,7 @@ body {
 
 .quiz_box header .timer .time_left_txt {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 18px;
     user-select: none;
 }
 
@@ -183,12 +182,12 @@ body {
 
 section {
     padding: 25px 30px 20px 30px;
-    background: url("/img/hands-600497_1280.jpeg")no-repeat center center/cover;
-
+    /*background: #746b6b;*/
+    background: url("/assets/img/hands-600497_1280.jpeg")no-repeat center center/cover;
 }
 
 section .que_text {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -198,7 +197,7 @@ section .option_list {
 }
 
 section .option_list .option {
-    background: aliceblue;
+    background: rgb(196, 222, 245);
     border: 1px solid #76bcf9;
     border-radius: 5px;
     padding: 8px 15px;
@@ -216,20 +215,20 @@ section .option_list .option:last-child {
 }
 
 section .option_list .option:hover {
-    color: #004085;
+    color: #626364;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
 
 section .option_list .option.correct {
-    color: #155724;
-    background: #d4edda;
+    color: #0a4b19;
+    background: #c8e9d0;
     border: 1px solid #c3e6cb;
 }
 
 section .option_list .option.incorrect {
-    color: #721c24;
-    background: #f8d7da;
+    color: #6b161f;
+    background: #f7cfd2;
     border: 1px solid #f5c6cb;
 }
 
@@ -294,7 +293,7 @@ footer button {
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
+    background: #e2c4b1;
     border: 1px solid #007bff;
     line-height: 10px;
     opacity: 0;
@@ -389,31 +388,17 @@ footer button.show {
     background: #877070;
 }
 
-/* Footer social network */
-.copyright-wrapper {
-    background-color: #291415;
-    margin-top: auto;
-    padding-bottom: 15px;
-    font-family: 'Alegreya SC', sans-serif;
-    border-top: 2px solid wheat;
-    color: bisque;
-    flex-direction: column;
-    height: auto;
-    flex-shrink: 0;
-
-}
-
 .social-networks {
-    background: #342a38;
+    background: rgb(4, 1, 18);
     display: flex;
     text-align: center;
+    border-top: 2px solid wheat;
     justify-content: center;
     padding: 0;
     margin: 0 auto;
     max-width: 300px;
     gap: 30px;
     flex: 1 0 auto;
-
 }
 
 .social-networks>li {
@@ -421,8 +406,6 @@ footer button.show {
     margin-top: 20px;
     width: 20%;
     list-style: none;
-
-
 }
 
 .social-networks i {
@@ -431,9 +414,15 @@ footer button.show {
 }
 
 .copyright-wrapper {
-    font-family: 'Merriweather', sans-serif;
-    text-align: center;
-    display: inline;
+    background: rgb(4, 1, 18);
+    margin-top: auto;
+    padding-bottom: 28px;
+    font-family: 'Alegreya SC', sans-serif;
+    border-top: 2px solid wheat;
+    color: #080808;
+    flex-direction: column;
+    height: auto;
+    flex-shrink: 0;
 }
 
 .copyright-wrapper p {
@@ -446,83 +435,42 @@ p .copyright {
     vertical-align: middle;
 }
 
-/*media queries*/
-/* For tablets */
-@media only screen and (max-width: 768px) {
+/* Default styles for mobile first */
+body {
+    font-size: 16px;
+}
 
-    .info_box,
-    .quiz_box,
-    .result_box {
-        width: 90%;
-        font-size: 0.9em;
-    }
-
-    .quiz_box {
-        width: 95%;
-    }
-
-    .start_btn button {
-        font-size: 20px;
-        padding: 10px 20px;
-    }
-
-    .info_box .info-title,
-    .info_box .buttons {
-        padding: 0 20px;
-    }
-
-    .quiz_box header {
-        padding: 0 20px;
-    }
-
-    section {
-        padding: 20px 20px 15px 20px;
-    }
-
-    footer {
-        padding: 0 20px;
-    }
-
-    .result_box .icon {
-        font-size: 80px;
+/* Styles for tablets */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
     }
 }
 
-/* For mobile phones */
-@media only screen and (max-width: 480px) {
-
-    .info_box,
-    .quiz_box,
-    .result_box {
-        width: 100%;
-        font-size: 0.8em;
+/* Styles for desktop */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
     }
+}
 
-    .start_btn button {
-        font-size: 18px;
-        padding: 8px 15px;
-    }
+.container {
+    width: 100%;
+}
 
-    .info_box .info-title,
-    .info_box .buttons {
-        padding: 0 10px;
-    }
+.column {
+    float: left;
+    width: 50%;
+    /* Two columns side by side */
+}
 
-    .quiz_box header {
-        padding: 0 10px;
-    }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
-    section {
-        padding: 15px 10px 10px 10px;
-    }
-
-    footer {
-        padding: 0 10px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .result_box .icon {
-        font-size: 60px;
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
     }
 }
