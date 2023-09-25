@@ -397,3 +397,93 @@ footer button.show {
     color: white;
     text-align: center;
 }
+
+/* ---- Responsive Adjustments Below ---- */
+/* These styles will apply by default (typically for desktops/large displays) */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+main,
+footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
+
+    header,
+    nav,
+    main,
+    footer {
+        width: 90%;
+    }
+
+    /* Adjustments for tablet sizes. */
+    .quiz_box,
+    .info_box,
+    .result_box {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .option {
+        margin: 10px 0;
+    }
+}
+
+/* Mobile Phones  */
+@media only screen and (max-width: 576px) {
+
+    header,
+    nav,
+    main,
+    footer {
+        width: 95%;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    .quiz_box,
+    .info_box,
+    .result_box {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    .option {
+        padding: 10px;
+    }
+
+    /* Increase size of buttons for better mobile interaction */
+    button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+
+
+    .quiz_box,
+    .info_box,
+    .result_box {
+        font-size: 0.75rem;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+    }
+}
