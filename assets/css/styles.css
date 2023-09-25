@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url("");
+    background: url("/assets/img/hands-600497_1280.jpeg");
     font-size: 16px;
     line-height: 1.5;
 }
@@ -183,7 +183,7 @@ body {
 section {
     padding: 25px 30px 20px 30px;
     /*background: #746b6b;*/
-    background: url("")no-repeat center center/cover;
+    background: url("/assets/img/hands-600497_1280.jpeg")no-repeat center center/cover;
 }
 
 section .que_text {
@@ -433,4 +433,44 @@ footer button.show {
 p .copyright {
     margin-right: 5px;
     vertical-align: middle;
+}
+
+/* Default styles for mobile first */
+body {
+    font-size: 16px;
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Styles for desktop */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    /* Two columns side by side */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
 }
