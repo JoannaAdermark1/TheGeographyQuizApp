@@ -65,12 +65,46 @@ Styling and Appearance
    . No errors showed when passing through the official W3C validator
 . CSS 
    . No errors showed when passing through the jigsaw.w3c official validator
+   
    ![Screenshot 2023-09-26 at 22 34 35](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/ccaccd93-1763-4acc-9932-ab277c2d5ef3)
+   
 
 ### Deployment
+ The website was build in VScode and deployed to Github 
+by creating Pages using following steps:
+
+Steps:
+Initialize a Git repository 
+
+Open project in VSCode.
+Open the terminal (View -> Terminal).
+Navigate to the project's root directory.
+Run: git init
+git add .
+git commit -m "added commit message here"
+Created a new repository on GitHub:
+Copy the URL of your newly created GitHub repository.
+Go back to VSCode's terminal.
+Link the local repo to the GitHub repo: git remote add origin YOUR_GITHUB_REPOSITORY_URL
+Push the code to GitHub:
+Push code: git push -u origin main
 
 
 
 # Credits
-. Questions sourced from various trivia websites.
-Icons by FontAwesome.
+.The website background if from https://www.istockphoto.com/se
+.I came up with the Questions for the Quiz myself
+.Basic structure and understanding about quiz website taken from:https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s
+https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s
+.JS code understanding 
+.Kevin Powell videos
+.Love Maths project from Code Institute for general help.
+.google and youtube JavaScript tutorials 
+.understing rom last projects.code institute last project love runing, and my last project clothes organisation life-hack.
+
+
+
+# Acknowledgements
+woild like thank my fellew code institute students Stjepan.Mesaros, Anjalee.kulasinghe, code institute tutors
+my mentor Jubril.Akolade for the encouragement you give me when i cant solve an issue. thank you Gayatri.Ghogare for the tips you shared.
+I thank my fellew stutend husband Alexander.Adermark. and last but not least Thank you Slack Community for the suport mostly Kera.Hackteam you are alawys to answer the question and doubts.
