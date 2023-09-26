@@ -57,12 +57,12 @@ body {
 .start_btn button {
     font-size: 25px;
     font-weight: 500;
-    color: #393c40;
+    color: #000004;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #6e5858;
+    background: #7a6130;
     cursor: pointer;
 }
 
