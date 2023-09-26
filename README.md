@@ -68,6 +68,19 @@ Styling and Appearance
    
    ![Screenshot 2023-09-26 at 22 34 35](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/ccaccd93-1763-4acc-9932-ab277c2d5ef3)
    
+# Responsiveness
+The site is designed and developed methodology ensures an adjusts of the layout, images, and elements As the screen gets larger, it can adjusts too.
+
+## Lighthouse
+Lighthouse Score for Desktop:
+
+![Screenshot 2023-09-27 at 00 01 20](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/43ccd44d-7f52-4762-b745-f26d403a61ea)
+
+## Lighthouse
+Lighthouse Score for mobile:
+![Screenshot 2023-09-27 at 00 03 06](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/7cf545a3-87d9-4fac-a43c-ead6bd8e8f2a)
+
+
 
 ### Deployment
  The website was build in VScode and deployed to Github 
