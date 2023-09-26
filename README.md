@@ -82,7 +82,7 @@ Lighthouse Score for mobile:
 
 
 
-### Deployment
+## Deployment
  The website was build in VScode and deployed to Github 
 by creating Pages using following steps:
 
@@ -117,7 +117,7 @@ https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s
 
 
 
-# Acknowledgements
+## Acknowledgements
 woild like thank my fellew code institute students Stjepan.Mesaros, Anjalee.kulasinghe, code institute tutors
 my mentor Jubril.Akolade for the encouragement you give me when i cant solve an issue. thank you Gayatri.Ghogare for the tips you shared.
 I thank my fellew stutend husband Alexander.Adermark. and last but not least Thank you Slack Community for the suport mostly Kera.Hackteam you are alawys to answer the question and doubts.
