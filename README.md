@@ -19,6 +19,8 @@ Get your score as soon as you finish the quiz.
 
 ## Info box
  . a box that shows the rules of the game will show up after clicking on the start bnt.
+ ![Screenshot 2023-09-26 at 20 55 24](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/cf27d2e3-e01c-4b6c-b119-bbaddee580a6)
+
  
 ## Answering Questions:
 . Each question has four multiple-choice options.
