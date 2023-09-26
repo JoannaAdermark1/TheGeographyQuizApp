@@ -457,7 +457,7 @@ footer {
     nav,
     main,
     footer {
-        width: 95%;
+        width: 90%;
     }
 
     body {
@@ -467,7 +467,7 @@ footer {
     .quiz_box,
     .info_box,
     .result_box {
-        width: 95%;
+        width: 90%;
         font-size: 16px;
     }
 
