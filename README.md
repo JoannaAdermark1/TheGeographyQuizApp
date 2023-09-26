@@ -26,6 +26,7 @@ Get your score as soon as you finish the quiz.
 . Each question has four multiple-choice options.
 Click on your chosen answer.
 . After selecting an answer, a next button appears allowing you to move to the next question.
+![Screenshot 2023-09-26 at 20 55 29](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/58affe67-7e80-4bb9-8ebf-2a674df9144b)
 
 ## Timer: 
 . Each question has a timer. If the time runs out before you select an answer, the correct answer is highlighted.
