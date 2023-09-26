@@ -1,5 +1,6 @@
 # TheGeographyQuizApp
-![Screenshot 2023-09-26 at 19 45 19](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/9f3de7c9-9c57-4c24-ac05-8ebed9b60c0d)
+![Screenshot 2023-09-26 at 22 48 03](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/8247ee91-dc44-4304-9a0b-85d278fb8c56)
+
 ## Features
 
 ### Interactive User Interface:
@@ -15,11 +16,12 @@ Get your score as soon as you finish the quiz.
  
 ## Start Quiz: 
 . Click on the start button to begin the quiz.
-![Screenshot 2023-09-26 at 20 55 17](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/bc6fa45d-8e5b-48d8-8c78-763d78146b27)
+t![Screenshot 2023-09-26 at 22 48 32](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/21e13ff4-9fa5-46f4-8cd4-61e54804d13a)
 
 ## Info box
  . a box that shows the rules of the game will show up after clicking on the start bnt.
- ![Screenshot 2023-09-26 at 20 55 24](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/cf27d2e3-e01c-4b6c-b119-bbaddee580a6)
+ 
+![Screenshot 2023-09-26 at 22 48 38](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/8dcde454-07ce-401e-a8a2-37a8774b9043)
 
  
 ## Answering Questions:
@@ -29,7 +31,8 @@ Click on your chosen answer.
 ## Timer: 
 . Each question has a timer. If the time runs out before you select an answer, the correct answer is highlighted.
 
-![Screenshot 2023-09-26 at 20 55 29](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/58affe67-7e80-4bb9-8ebf-2a674df9144b)
+![Screenshot 2023-09-26 at 22 48 40](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/4c929d42-b7dc-4f65-bf01-c56b7be39e38)
+
 
 ## End of Quiz:
 . Once you've answered all questions, your score is shown.
@@ -39,7 +42,7 @@ Click on your chosen answer.
 . After viewing your score,you have the option to either restart the quiz or exit.
 . The restart option allows you to try the quiz again.
 . The exit option reloads the page, bringing you back to the start screen.
-![Screenshot 2023-09-26 at 20 55 56](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/31fd5e1a-6b7b-4567-a15c-d08773160a34)
+![Screenshot 2023-09-26 at 22 49 02](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/97220294-3d29-4299-8d63-b6d18c0709b2)
 
 ### Questions Array
 . The questions for the quiz are stored in an array named questions. Each question is an object with the following properties:
