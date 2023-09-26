@@ -19,6 +19,19 @@ body {
     background: #8eb9e7;
 }
 
+.heading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #786047;
+    font-family: 'Alegreya SC', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+
 .start_btn,
 .info_box,
 .quiz_box,
@@ -49,7 +62,7 @@ body {
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #a96b6b;
+    background: #6e5858;
     cursor: pointer;
 }
 
@@ -113,7 +126,7 @@ body {
 
 .quiz_box {
     width: 700px;
-    background: #a18282;
+    background: #9b8181;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -126,7 +139,7 @@ body {
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #a18282;
+    background: #9b8181;
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -162,7 +175,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     height: 30px;
-    width: 45px;
+    width: 50px;
     color: #fff;
     border-radius: 5px;
     line-height: 30px;
@@ -393,7 +406,7 @@ footer button.show {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #77565a;
+    background: #786047;
     color: white;
     text-align: center;
 }
