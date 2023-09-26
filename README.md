@@ -62,7 +62,8 @@ Styling and Appearance
    . No errors showed when passing through the official W3C validator
 . CSS 
    . No errors showed when passing through the jigsaw.w3c official validator
-   
+   ![Screenshot 2023-09-26 at 22 34 35](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/ccaccd93-1763-4acc-9932-ab277c2d5ef3)
+
 ### Deployment
 
 
