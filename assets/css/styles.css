@@ -409,6 +409,18 @@ footer button.show {
     background: #786047;
     color: white;
     text-align: center;
+    align-items: center;
+    margin: 0 10px;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+#networks i {
+    color: #161717;
+    display: flex;
+    font-size: 25px;
+
 }
 
 /* ---- Responsive Adjustments Below ---- */
