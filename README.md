@@ -1,5 +1,6 @@
 # TheGeographyQuizApp
-trying out something to see if it works
+![Screenshot 2023-09-26 at 19 45 19](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/9f3de7c9-9c57-4c24-ac05-8ebed9b60c0d)
+
 ## Features
 
 ### Interactive User Interface:
