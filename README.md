@@ -12,11 +12,14 @@ Race against the clock! Each question has a timer to up the ante.
 Get your score as soon as you finish the quiz.
 
  # Usage 
-
+ 
 ## Start Quiz: 
 . Click on the start button to begin the quiz.
-. Quiz Questions: View and answer each question using multiple choice options.
+![Screenshot 2023-09-26 at 20 55 17](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/bc6fa45d-8e5b-48d8-8c78-763d78146b27)
 
+## Info box
+ . a box that shows the rules of the game will show up after clicking on the start bnt.
+ 
 ## Answering Questions:
 . Each question has four multiple-choice options.
 Click on your chosen answer.
