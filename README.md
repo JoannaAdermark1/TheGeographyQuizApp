@@ -106,18 +106,16 @@ Push code: git push -u origin main
 
 # Credits
 .The website background if from https://www.istockphoto.com/se
-.I came up with the Questions for the Quiz myself
+
 .Basic structure and understanding about quiz website taken from:https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s
 https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s
-.JS code understanding 
-.Kevin Powell videos
-.Love Maths project from Code Institute for general help.
-.google and youtube JavaScript tutorials 
-.understing rom last projects.code institute last project love runing, and my last project clothes organisation life-hack.
+Kevin Powell videos
 
+.Js understanding and taken from prakashahi, @CodingNepal start btn, timer, qst btnresult bnt,  
+i added question array.
 
 
 ## Acknowledgements
-woild like thank my fellew code institute students Stjepan.Mesaros, Anjalee.kulasinghe, code institute tutors
+woild like thank my fellew code institute students Stjepan.Mesaros, Anjalee.kulasinghe, Code Institute pp2 challanges helped alot on understanding js.
 my mentor Jubril.Akolade for the encouragement you give me when i cant solve an issue. thank you Gayatri.Ghogare for the tips you shared.
 I thank my fellew stutend husband Alexander.Adermark. and last but not least Thank you Slack Community for the suport mostly Kera.Hackteam you are alawys to answer the question and doubts.
