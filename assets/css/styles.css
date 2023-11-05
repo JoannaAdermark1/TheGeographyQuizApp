@@ -388,7 +388,7 @@ footer button.show {
     background: #877070;
 }
 
-.social-networks {
+/*.social-networks {
     background: rgb(4, 1, 18);
     display: flex;
     text-align: center;
@@ -433,12 +433,7 @@ footer button.show {
 p .copyright {
     margin-right: 5px;
     vertical-align: middle;
-}
-
-/* Default styles for mobile first */
-body {
-    font-size: 16px;
-}
+}*/
 
 /* Styles for tablets */
 @media (min-width: 768px) {

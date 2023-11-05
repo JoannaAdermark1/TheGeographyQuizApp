@@ -1,6 +1,6 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
-    {
+  {
     numb: 1,
     question: "What is the largest country in the world?",
     answer: "Russia",
@@ -12,7 +12,7 @@ let questions = [
     ]
   },
 
-    {
+  {
     numb: 2,
     question: "Which of the following country is found in East Africa?",
     answer: "Uganda",
@@ -23,7 +23,7 @@ let questions = [
       "Namibia"
     ]
   },
-    {
+  {
     numb: 3,
     question: "Which continent is Sweden in?",
     answer: "Europe",
@@ -35,7 +35,7 @@ let questions = [
     ]
   },
 
-    {
+  {
     numb: 4,
     question: "Which of the following is a Scandinavia country?",
     answer: "Norway",
@@ -47,7 +47,7 @@ let questions = [
     ]
   },
 
-    {
+  {
     numb: 5,
     question: "Which continent is Chile",
     answer: "South America",
