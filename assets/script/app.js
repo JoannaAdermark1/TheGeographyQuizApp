@@ -38,7 +38,9 @@ let counter;
 let counterLine;
 let widthValue = 0;
 
+// Select the 'Restart Quiz' button within the result_box
 const restart_quiz = result_box.querySelector(".buttons .restart");
+// Select the 'Quit Quiz' button within the result_box
 const quit_quiz = result_box.querySelector(".buttons .quit");
 
 // restartQuiz button clicked
@@ -64,8 +66,10 @@ restart_quiz.onclick = () => {
 quit_quiz.onclick = () => {
     window.location.reload(); //reload the current window
 }
-
+// Select the next button element
 const next_btn = document.querySelector("footer .next_btn");
+
+// Select the element for displaying the total question count
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // Next Que button clicked
