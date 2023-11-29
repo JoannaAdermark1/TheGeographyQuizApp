@@ -19,7 +19,7 @@ Get your score as soon as you finish the quiz.
 t![Screenshot 2023-09-26 at 22 48 32](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/21e13ff4-9fa5-46f4-8cd4-61e54804d13a)
 
 
-[Link to the Live wetbsite](https://joannaadermark1.github.io/thegeographyquizapp/) 
+[Link to the Live wetbsite](https://joannaadermark1.github.io/TheGeographyQuizApp/)
 
 ## Info box
  . a box that shows the rules of the game will show up after clicking on the start bnt.
