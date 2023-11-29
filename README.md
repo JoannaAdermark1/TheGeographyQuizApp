@@ -83,24 +83,36 @@ Lighthouse Score for mobile:
 
 
 ## Deployment
- The website was build in VScode and deployed to Github 
+The website was build in VScode and deployed to Github 
 by creating Pages using following steps:
 
-Steps:
-Initialize a Git repository 
+Steps:Initialize a Git repository 
 
-Open project in VSCode.
-Open the terminal (View -> Terminal).
-Navigate to the project's root directory.
-Run: git init
-git add .
-git commit -m "added commit message here"
-Created a new repository on GitHub:
-Copy the URL of your newly created GitHub repository.
-Go back to VSCode's terminal.
-Link the local repo to the GitHub repo: git remote add origin YOUR_GITHUB_REPOSITORY_URL
-Push the code to GitHub:
-Push code: git push -u origin main
+.Open project in VSCode.
+
+.Open the terminal (View -> Terminal).
+
+.Navigate to the project's root directory.
+
+.Run: git init
+
+.git add .
+
+.git commit -m "added commit message here"
+
+.Created a new repository on GitHub:
+
+.Copy the URL of your newly created GitHub repository.
+
+.Go back to VSCode's terminal.
+
+.Link the local repo to the GitHub repo: git remote add origin YOUR_GITHUB_REPOSITORY_URL
+
+.Push the code to GitHub:
+
+.Push code: git push -u origin main
+
+ ##Fixing bugs
 
 
 
