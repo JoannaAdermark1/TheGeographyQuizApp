@@ -428,37 +428,136 @@ footer p {
 }
 
 
-/* Styles for tablets */
-@media (min-width: 768px) {
-    body {
-        font-size: 18px;
-    }
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Styles for desktop */
+body {
+    background: url("/assets/img/hands-600497_1280.jpeg");
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ... ( existing styles) */
+
+/* Styles for larger screens (desktops) */
 @media (min-width: 1024px) {
     body {
         font-size: 20px;
     }
+
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .column {
+        width: 48%;
+        /* Two columns side by side with some space between them */
+        margin-right: 2%;
+    }
+
+    .quiz_box {
+        max-width: 60%;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .option_list .option {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+
+    .buttons button {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
 }
 
-.container {
-    width: 100%;
+/* Styles for medium screens (tablets) */
+@media (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .column {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .quiz_box {
+        max-width: 70%;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .option_list .option {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .buttons button {
+        height: 40px;
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 15px;
+    }
 }
 
-.column {
-    float: left;
-    width: 50%;
-    /* Two columns side by side */
-}
+/* Styles for smaller screens (phones) */
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
 
-@media (max-width: 768px) {
-    .desktop-only {
-        display: none;
+    .column {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .quiz_box {
+        max-width: 80%;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .option_list .option {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .buttons button {
+        height: 35px;
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 10px;
     }
 }
