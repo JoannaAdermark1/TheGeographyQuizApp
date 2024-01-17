@@ -267,7 +267,7 @@ footer .total_que {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid rgb(41, 39, 39);
 }
 
 footer .total_que span {
