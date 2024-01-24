@@ -215,7 +215,7 @@ section .option_list .option:last-child {
 }
 
 section .option_list .option:hover {
-    color: #626364;
+    color: #090001;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
@@ -267,7 +267,7 @@ footer .total_que {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid rgb(41, 39, 39);
+    border-top: 1px solid #f6c054 (82, 211, 65);
 }
 
 footer .total_que span {
