@@ -9,14 +9,9 @@
 }
 
 body {
-    background: url("/assets/img/hands-600497_1280.jpeg");
+    background: url("../img/hands-600497_1280.jpeg");
     font-size: 16px;
     line-height: 1.5;
-}
-
-::selection {
-    color: #fff;
-    background: #8eb9e7;
 }
 
 .start_btn,
@@ -41,15 +36,33 @@ body {
     transform: translate(-50%, -50%) scale(1);
 }
 
+::selection {
+    color: #fff;
+    background: #8eb9e7;
+}
+
+.heading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #786047;
+    font-family: 'Alegreya SC', sans-serif;
+    color: white;
+    text-align: center;
+}
+
 .start_btn button {
     font-size: 25px;
     font-weight: 500;
     color: #393c40;
+    color: #000004;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
     background: #a96b6b;
+    background: #7a6130;
     cursor: pointer;
 }
 
@@ -149,7 +162,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 130px;
 }
 
 .quiz_box header .timer .time_left_txt {
@@ -216,6 +229,7 @@ section .option_list .option:last-child {
 
 section .option_list .option:hover {
     color: #090001;
+    color: #626364;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
@@ -260,7 +274,8 @@ section .option_list .option .icon {
     border-color: #a42834;
 }
 
-footer .total_que {
+.total_que {
+
     /* come back here later*/
     height: 60px;
     padding: 0 30px;
@@ -268,6 +283,7 @@ footer .total_que {
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid #f6c054 (82, 211, 65);
+    border-top: 1px solid lightgrey;
 }
 
 footer .total_que span {
@@ -388,6 +404,7 @@ footer button.show {
     color: #c4c0c0;
     background: #877070;
 }
+
 
 /* Style for the main page footer */
 .main-footer {
@@ -528,36 +545,146 @@ body {
     body {
         font-size: 16px;
     }
+}
 
-    .container {
-        max-width: 90%;
-        margin: 0 auto;
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.column {
+    width: 100%;
+    margin-right: 0;
+}
+
+.quiz_box {
+    max-width: 80%;
+}
+
+section {
+    padding: 10px;
+}
+
+.option_list .option {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.buttons button {
+    height: 35px;
+    font-size: 16px;
+}
+
+footer {
+    padding: 10px;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #786047;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+#networks i {
+    color: #161717;
+    display: flex;
+    font-size: 25px;
+
+}
+
+/* ---- Responsive Adjustments Below ---- */
+/* These styles will apply by default (typically for desktops/large displays) */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+main,
+footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
+
+    header,
+    nav,
+    main,
+    footer {
+        width: 90%;
     }
 
-    .column {
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .quiz_box {
-        max-width: 80%;
-    }
-
-    section {
-        padding: 10px;
-    }
-
-    .option_list .option {
-        padding: 8px 12px;
-        font-size: 14px;
-    }
-
-    .buttons button {
-        height: 35px;
+    /* Adjustments for tablet sizes. */
+    .quiz_box,
+    .info_box,
+    .result_box {
+        width: 90%;
         font-size: 16px;
     }
 
+    .option {
+        margin: 10px 0;
+    }
+}
+
+/* Mobile Phones  */
+@media only screen and (max-width: 576px) {
+
+    header,
+    nav,
+    main,
     footer {
+        width: 90%;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    .quiz_box,
+    .info_box,
+    .result_box {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .option {
         padding: 10px;
+    }
+
+    /* Increase size of buttons for better mobile interaction */
+    button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+
+
+    .quiz_box,
+    .info_box,
+    .result_box {
+        font-size: 0.75rem;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        display: block;
     }
 }
