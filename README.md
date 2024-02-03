@@ -1,4 +1,4 @@
-# TheGeoQuizApp
+# World Quiz: Learn Geography
 ![Screenshot 2023-09-26 at 22 48 03](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/8247ee91-dc44-4304-9a0b-85d278fb8c56)
 
 ## Features
