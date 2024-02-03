@@ -14,10 +14,10 @@ body {
     line-height: 1.5;
 }
 
-::selection {
+/*::selection {
     color: #fff;
     background: #8eb9e7;
-}
+}*/
 
 .start_btn,
 .info_box,
@@ -50,6 +50,8 @@ body {
     font-family: 'Alegreya SC', sans-serif;
     color: white;
     text-align: center;
+    font-size: 30px;
+
 }
 
 .start_btn button {
