@@ -408,11 +408,9 @@ footer button.show {
 /* Style for the main page footer */
 .main-footer {
     background: linear-gradient(90deg, #564040 0%, #927979 43%, #382f2f 100%);
-    color: #000;
-    padding: 10px;
     position: fixed;
-    bottom: 0;
     width: 100%;
+    justify-content: center;
 }
 
 /* Style for the social network links */
