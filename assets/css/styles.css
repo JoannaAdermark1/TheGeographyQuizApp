@@ -50,7 +50,7 @@ body {
 }
 
 .start_btn button {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 500;
     color: lemonchiffon;
     padding: 15px 30px;
@@ -109,7 +109,7 @@ body {
     margin: 0 5px;
     height: 40px;
     width: 100px;
-    font-size: 16px;
+    font-size: 0.75rem;
     font-weight: 500;
     cursor: pointer;
     border: none;
@@ -162,12 +162,12 @@ body {
 
 .quiz_box header .timer .time_left_txt {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1rem;
     user-select: none;
 }
 
 .quiz_box header .timer .timer_sec {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 500;
     height: 30px;
     width: 45px;
@@ -194,7 +194,7 @@ section {
 }
 
 section .que_text {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -294,7 +294,7 @@ footer .total_que span p:first-child {
 footer button {
     height: 40px;
     padding: 0 13px;
-    font-size: 18px;
+    font-size: 0.75rem;
     font-weight: 400;
     cursor: pointer;
     border: none;
@@ -367,7 +367,7 @@ footer button.show {
     margin: 0 10px;
     height: 45px;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 0.75rem;
     font-weight: 500;
     cursor: pointer;
     border: none;
@@ -648,6 +648,10 @@ footer {
 
     .option {
         padding: 10px;
+    }
+
+    .start_btn {
+        top: 60%;
     }
 
     /* Increase size of buttons for better mobile interaction */
