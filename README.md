@@ -1,9 +1,37 @@
 # World Quiz: Learn Geography
-![Screenshot 2023-09-26 at 22 48 03](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/8247ee91-dc44-4304-9a0b-85d278fb8c56)
+
+Welcome to the Quiz App! 
+This interactive quiz application allows users to test their knowledge on various topics with a set of questions and options.
+
+![Screenshot 2024-02-04 at 14 16 50](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/223c9d67-c1c7-4f89-98f7-2bc551288feb)
+
+[Link to the Live wetbsite](https://joannaadermark1.github.io/TheGeographyQuizApp/)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Interactive Interface](#Interactive-Interface)
+- [How to Use](#how-to-use)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+This project implements a quiz application with a user-friendly interface. Users can start the quiz, answer multiple-choice questions, and see their final score. The design is responsive, making it suitable for various devices.
 
 ## Features
 
-### Interactive User Interface:
+- Engaging quiz questions with multiple-choice options.
+- Interactive timer to add a time challenge.
+- Real-time feedback on correct and incorrect answers.
+- Results page with a summary of the user's performance.
+- Responsive design for a seamless experience across devices.
+
+
+## Interactive User Interface:
+
  A smooth and user-friendly interface that provides instant feedback.
 ### Timer Functionality: 
 Race against the clock! Each question has a timer to up the ante.
@@ -12,40 +40,42 @@ Race against the clock! Each question has a timer to up the ante.
 ### Instant Result: 
 Get your score as soon as you finish the quiz.
 
- # Usage 
- 
-## Start Quiz: 
-. Click on the start button to begin the quiz.
-t![Screenshot 2023-09-26 at 22 48 32](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/21e13ff4-9fa5-46f4-8cd4-61e54804d13a)
+ ## Usage 
+ How to Use
+Click on the "Start Quiz" button to begin the quiz.
+Answer the multiple-choice questions within the given time.
+Receive immediate feedback on your answers.
+View your final score and a summary of your performance.
 
+![Screenshot 2024-02-04 at 16 28 39](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/392d7a89-2310-4c7e-ba40-fcc0235da841)
 
-[Link to the Live wetbsite](https://joannaadermark1.github.io/TheGeographyQuizApp/)
-
-## Info box
+### Info box
  . a box that shows the rules of the game will show up after clicking on the start bnt.
  
-![Screenshot 2023-09-26 at 22 48 38](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/8dcde454-07ce-401e-a8a2-37a8774b9043)
+![Screenshot 2024-02-04 at 16 32 33](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/009fd452-b8ec-48e4-8317-3276d82cc53e)
 
- 
-## Answering Questions:
+### Answering Questions:
 . Each question has four multiple-choice options.
 Click on your chosen answer.
 . After selecting an answer, a next button appears allowing you to move to the next question.
-## Timer: 
+
+![Screenshot 2024-02-04 at 16 39 48](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/041b9bee-9aae-4c66-abf8-1be732afd98d)
+
+### Timer: 
 . Each question has a timer. If the time runs out before you select an answer, the correct answer is highlighted.
 
-![Screenshot 2023-09-26 at 22 48 40](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/4c929d42-b7dc-4f65-bf01-c56b7be39e38)
+![Screenshot 2024-02-04 at 16 32 41](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/c5958ee5-9e33-4472-a423-44dab3e28533)
 
-
-## End of Quiz:
+### End of Quiz:
 . Once you've answered all questions, your score is shown.
 . Depending on your score, a message of congratulations, encouragement, or consolation is displayed.
 
-## Restart or Exiting:
+### Restart or Exiting:
 . After viewing your score,you have the option to either restart the quiz or exit.
 . The restart option allows you to try the quiz again.
 . The exit option reloads the page, bringing you back to the start screen.
-![Screenshot 2023-09-26 at 22 49 02](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/97220294-3d29-4299-8d63-b6d18c0709b2)
+
+![Screenshot 2024-02-04 at 16 35 47](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/7508b33a-39bb-4325-af50-2f61ad04c505)
 
 ### Questions Array
 . The questions for the quiz are stored in an array named questions. Each question is an object with the following properties:
@@ -54,7 +84,9 @@ numb: The number of the question.
 . answer: The correct answer to the question.
 . options: An array of four possible answers.
 . To add more questions, expand the questions array by adding more question objects.
-![Screenshot 2023-09-26 at 20 55 29](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/ddc2e16e-7aeb-4e58-82e5-de99a87718ea)
+
+![Screenshot 2024-02-04 at 16 45 45](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/48825a26-1ffe-4f42-a591-96894bda5fdc)
+
 
 Styling and Appearance
 . This code mainly provides the functional logic for the quiz application. For an improved user experience, consider adding CSS for styling and enhancing the appearance.
@@ -62,6 +94,11 @@ Styling and Appearance
 ### Testing
 . I tested playing thus game quiz in different browsers chrome,firefox,safari and i confirm that the results are correct.
 . I confirmed that the colors and fonts ae easy to read.
+
+## Technologies Used
+HTML
+CSS
+JavaScript
 
 ### Validator Testing
 . HTML
@@ -71,19 +108,18 @@ Styling and Appearance
    
    ![Screenshot 2023-09-26 at 22 34 35](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/ccaccd93-1763-4acc-9932-ab277c2d5ef3)
    
-# Responsiveness
+## Responsiveness
 The site is designed and developed methodology ensures an adjusts of the layout, images, and elements As the screen gets larger, it can adjusts too.
 
 ## Lighthouse
 Lighthouse Score for Desktop:
 
-![Screenshot 2023-09-27 at 00 01 20](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/43ccd44d-7f52-4762-b745-f26d403a61ea)
+![Screenshot 2024-02-04 at 15 09 53](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/d029f68c-0a5a-423f-a170-61be81f63ec7)
 
 ## Lighthouse
 Lighthouse Score for mobile:
-![Screenshot 2023-09-27 at 00 03 06](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/7cf545a3-87d9-4fac-a43c-ead6bd8e8f2a)
 
-
+![Screenshot 2024-02-04 at 15 55 26](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/69c16ae1-a759-4df5-97bc-2650bb6e46ce)
 
 ## Deployment
 The website was build in VScode and deployed to Github 
@@ -117,20 +153,16 @@ Steps:Initialize a Git repository
 
  ##Fixing bugs
 
-
-
 # Credits
-.The website background if from https://www.istockphoto.com/se
+.The website background is from https://www.istockphoto.com/se
 
 .Basic structure and understanding about quiz website taken from:https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s
 https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s  
 Kevin Powell videos
 
-.Js understanding and taken from prakashahi, @CodingNepal start btn, timer, qst btnresult bnt,  
-i added question array.
-
+.Javascript understanding from CI challenges and start btn, timer, resultbtn understood and taken from youtuber @CodingNepal. https://www.youtube.com/watch?v=WUBhpSRS_fk
 
 ## Acknowledgements
-woild like thank my fellew code institute students Stjepan.Mesaros, Anjalee.kulasinghe, Code Institute pp2 challanges helped alot on understanding js.
-my mentor Jubril.Akolade for the encouragement you give me when i cant solve an issue. thank you Gayatri.Ghogare for the tips you shared.
-I thank my fellew stutend husband Alexander.Adermark. and last but not least Thank you Slack Community for the suport mostly Kera.Hackteam you are alawys to answer the question and doubts.
+Would like thank my fellew code institute students: Femi Ashiru for all the support i got from you with my project, Stjepan.Mesaros, Anjalee.kulasinghe, Gayatri.Ghogare Code Institute tutors.
+my mentor Jubril.Akolade for encouraging me to keep pushing when i feel down.
+I thank my husband Alexander Adermark and last but not least Thank you Slack Community for the suport mostly Kera.Hackteam you are always there with answers when there are questions and doubts.
