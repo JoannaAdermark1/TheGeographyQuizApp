@@ -52,7 +52,7 @@ View your final score and a summary of your performance.
 ### Info box
  . a box that shows the rules of the game will show up after clicking on the start bnt.
  
-![Screenshot 2024-02-04 at 16 32 33](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/009fd452-b8ec-48e4-8317-3276d82cc53e)
+![info box](docs/info.png)
 
 ### Answering Questions:
 . Each question has four multiple-choice options.
