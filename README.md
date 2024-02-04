@@ -3,7 +3,7 @@
 Welcome to the Quiz App! 
 This interactive quiz application allows users to test their knowledge on various topics with a set of questions and options.
 
-![Screenshot 2024-02-04 at 14 16 50](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/223c9d67-c1c7-4f89-98f7-2bc551288feb)
+![main page](docs/page.png)
 
 [Link to the Live wetbsite](https://joannaadermark1.github.io/TheGeographyQuizApp/)
 
