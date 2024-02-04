@@ -47,7 +47,7 @@ Answer the multiple-choice questions within the given time.
 Receive immediate feedback on your answers.
 View your final score and a summary of your performance.
 
-![Screenshot 2024-02-04 at 16 28 39](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/392d7a89-2310-4c7e-ba40-fcc0235da841)
+![Startbtn](docs/startbtn.png)
 
 ### Info box
  . a box that shows the rules of the game will show up after clicking on the start bnt.
