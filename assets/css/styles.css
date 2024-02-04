@@ -14,11 +14,6 @@ body {
     line-height: 1.5;
 }
 
-/*::selection {
-    color: #fff;
-    background: #8eb9e7;
-}*/
-
 .start_btn,
 .info_box,
 .quiz_box,
@@ -63,7 +58,6 @@ body {
     border: none;
     border-radius: 5px;
     background: linear-gradient(90deg, #564040 0%, #8c5858 43%, #382f2f 100%);
-    /*background: #927979;*/
     cursor: pointer;
 }
 
@@ -141,7 +135,6 @@ body {
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    /*background: #a18282;*/
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -197,7 +190,6 @@ body {
 
 section {
     padding: 25px 30px 20px 30px;
-    /*background: #746b6b;*/
     background: url("/assets/img/hands-600497_1280.jpeg")no-repeat center center/cover;
 }
 
@@ -282,7 +274,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*border-top: 1px solid #f6c054 (82, 211, 65);*/
     border-top: 1px solid lightgrey;
 }
 
@@ -461,8 +452,6 @@ footer p {
     font-family: 'Poppins', sans-serif;
 }
 
-/* ... ( existing styles) */
-
 /* Styles for larger screens (desktops) */
 @media (min-width: 1024px) {
     body {
@@ -476,7 +465,6 @@ footer p {
 
     .column {
         width: 48%;
-        /* Two columns side by side with some space between them */
         margin-right: 2%;
     }
 
@@ -543,7 +531,7 @@ footer p {
 }
 
 /* Styles for smaller screens (phones) */
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     body {
         font-size: 16px;
     }
@@ -666,24 +654,5 @@ footer {
     button {
         padding: 10px 20px;
         font-size: 1rem;
-    }
-}
-
-/* Mobile Phones (Portrait) */
-@media only screen and (max-width: 480px) {
-
-
-    .quiz_box,
-    .info_box,
-    .result_box {
-        font-size: 0.75rem;
-    }
-
-    nav ul {
-        display: block;
-    }
-
-    nav li {
-        display: block;
     }
 }
