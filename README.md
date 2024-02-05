@@ -17,7 +17,7 @@ This interactive quiz application allows users to test their knowledge on variou
 - [Bugs](#bugs)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
-- [credit](#credits)
+- [credits](#credits)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 
