@@ -60,7 +60,7 @@ View your final score and a summary of your performance.
 Click on your chosen answer.
 . After selecting an answer, a next button appears allowing you to move to the next question.
 
-![quiz box](docs/quizbox.png)
+![question box](docs/questionbox.png)
 
 ### Timer: 
 . Each question has a timer. If the time runs out before you select an answer, the correct answer is highlighted.
