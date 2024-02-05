@@ -55,16 +55,17 @@ View your final score and a summary of your performance.
 ![info box](docs/info.png)
 
 ### Answering Questions:
+
 . Each question has four multiple-choice options.
 Click on your chosen answer.
 . After selecting an answer, a next button appears allowing you to move to the next question.
 
-![Screenshot 2024-02-04 at 16 39 48](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/041b9bee-9aae-4c66-abf8-1be732afd98d)
+![quiz box](docs/quizbox.png)
 
 ### Timer: 
 . Each question has a timer. If the time runs out before you select an answer, the correct answer is highlighted.
 
-![Screenshot 2024-02-04 at 16 32 41](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/c5958ee5-9e33-4472-a423-44dab3e28533)
+![timer](docs/timer.png)
 
 ### End of Quiz:
 . Once you've answered all questions, your score is shown.
