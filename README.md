@@ -86,10 +86,9 @@ numb: The number of the question.
 . options: An array of four possible answers.
 . To add more questions, expand the questions array by adding more question objects.
 
-![Screenshot 2024-02-04 at 16 45 45](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/48825a26-1ffe-4f42-a591-96894bda5fdc)
+![question box](docs/qst.png)
 
-
-Styling and Appearance
+### Styling and Appearance
 . This code mainly provides the functional logic for the quiz application. For an improved user experience, consider adding CSS for styling and enhancing the appearance.
 
 ### Testing
@@ -115,7 +114,7 @@ The site is designed and developed methodology ensures an adjusts of the layout,
 ## Lighthouse
 Lighthouse Score for Desktop:
 
-![Screenshot 2024-02-04 at 15 09 53](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/d029f68c-0a5a-423f-a170-61be81f63ec7)
+![desttop lighthouse](docs/dsklighthouse.png)
 
 ## Lighthouse
 Lighthouse Score for mobile:
