@@ -171,8 +171,11 @@ Steps:Initialize a Git repository
 ## Credits
 ### content 
 .Basic structure and understanding of how quiz id built from:https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s  
-Kevin Powell video
-.The javascript of the page and understanding of timer, next-btn resultbtn was taken from youtuber https://www.youtube.com/watch?v=WUBhpSRS_fk CodingNepal.
+Kevin Powell video.
+
+.The javascript of the page and understanding of timer, next-btn resultbtn was taken from youtuber https://www.youtube.com/watch?v=WUBhpSRS_fk 
+CodingNepal.
+
 ### Media
 .The website background is taken from https://www.istockphoto.com/se
 
