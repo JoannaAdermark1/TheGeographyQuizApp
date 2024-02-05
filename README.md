@@ -95,6 +95,19 @@ numb: The number of the question.
 . I tested playing thus game quiz in different browsers chrome,firefox,safari and i confirm that the results are correct.
 . I confirmed that the colors and fonts ae easy to read.
 
+### Bugs
+
+| **Bug** | **Fix** | 
+|-------------|------------|
+|Not alot of bugs but in info box the buttons of exit-quiz and continue where not responsive on small devices, they were outsise the box. the same thing with the next-btn in the question box and replay-quiz or quit-quiz in the complete box.| I fixed these bugs by going in css and changed font-size from px to rem.|
+
+down is how the bug was before and after
+
+| **Bug** | **Fix** | 
+|-------------|------------|
+![bug](docs/bug.png)| ![fix bug](docs/fixbug.png)
+
+
 ## Technologies Used
 HTML
 CSS
