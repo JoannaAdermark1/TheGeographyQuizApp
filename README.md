@@ -119,7 +119,7 @@ Lighthouse Score for Desktop:
 ## Lighthouse
 Lighthouse Score for mobile:
 
-![Screenshot 2024-02-04 at 15 55 26](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/69c16ae1-a759-4df5-97bc-2650bb6e46ce)
+![mobile lighthouse](docs/mbllighthouse.png)
 
 ## Deployment
 The website was build in VScode and deployed to Github 
