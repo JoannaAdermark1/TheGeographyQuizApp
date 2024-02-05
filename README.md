@@ -168,14 +168,13 @@ Steps:Initialize a Git repository
 
 .Push code: git push -u origin main
 
-# Credits
-.The website background is from https://www.istockphoto.com/se
-
-.Basic structure and understanding about quiz website taken from:https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s
-https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s  
-Kevin Powell videos
-
-.Javascript understanding from CI challenges and start btn, timer, resultbtn understood and taken from youtuber @CodingNepal. https://www.youtube.com/watch?v=WUBhpSRS_fk
+## Credits
+### content 
+.Basic structure and understanding of how quiz id built from:https://www.youtube.com/watch?v=riDzcEQbX6k&t=2s  
+Kevin Powell video
+.The javascript of the page and understanding of timer, next-btn resultbtn was taken from youtuber https://www.youtube.com/watch?v=WUBhpSRS_fk CodingNepal.
+### Media
+.The website background is taken from https://www.istockphoto.com/se
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
