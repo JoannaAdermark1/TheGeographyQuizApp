@@ -76,7 +76,7 @@ Click on your chosen answer.
 . The restart option allows you to try the quiz again.
 . The exit option reloads the page, bringing you back to the start screen.
 
-![Screenshot 2024-02-04 at 16 35 47](https://github.com/JoannaAdermark1/TheGeographyQuizApp/assets/137285482/7508b33a-39bb-4325-af50-2f61ad04c505)
+![complete box](docs/completebox.png)
 
 ### Questions Array
 . The questions for the quiz are stored in an array named questions. Each question is an object with the following properties:
