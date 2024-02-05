@@ -13,9 +13,13 @@ This interactive quiz application allows users to test their knowledge on variou
 - [Features](#features)
 - [Interactive Interface](#Interactive-Interface)
 - [How to Use](#how-to-use)
+- [Testing](#testing)
+- [Bugs](#bugs)
 - [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [credit](#credits)
 - [Contributing](#contributing)
-- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -164,8 +168,6 @@ Steps:Initialize a Git repository
 
 .Push code: git push -u origin main
 
- ##Fixing bugs
-
 # Credits
 .The website background is from https://www.istockphoto.com/se
 
@@ -174,6 +176,15 @@ https://www.youtube.com/watch?v=WiLTsxjCmWQ&t=591s
 Kevin Powell videos
 
 .Javascript understanding from CI challenges and start btn, timer, resultbtn understood and taken from youtuber @CodingNepal. https://www.youtube.com/watch?v=WUBhpSRS_fk
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or improvement.
+Make your changes and commit them.
+Push your changes to your fork.
+Open a pull request, explaining your changes.
 
 ## Acknowledgements
 Would like thank my fellew code institute students: Femi Ashiru for all the support i got from you with my project, Stjepan.Mesaros, Anjalee.kulasinghe, Gayatri.Ghogare Code Institute tutors.
